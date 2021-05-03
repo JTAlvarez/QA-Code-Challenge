@@ -12,15 +12,12 @@ let file1Words = file1.split(",").map((e) => "(?=.*" + e + ")");
 let userInput = prompt("Enter your sentence : ");
 
 // Word Matching
-let regexArray = for (i=0, i < file1Words.length; i++){
-
-} 
-let r = new RegExp(file1Words.join(), "gi");
-let match = r.test(userInput)
+let r = new RegExp(file1Words.join(""), "gi");
+let match = r.test(userInput);
 
 // Output 
 console.log(file1);
-
+console.log(r);
 console.log(match);
 
 /* let file 1 = fs.read('File1.txt', utf8, function(err, data){
