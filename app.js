@@ -16,9 +16,9 @@ let r = new RegExp(file1Words.join(""), "gi");
 let match = r.test(userInput);
 
 // Output 
-console.log(file1);
-console.log(r);
-console.log(match);
+// console.log(file1);
+// console.log(r);
+console.log("your result is "+match);
 
 /* let file 1 = fs.read('File1.txt', utf8, function(err, data){
     console.log(file1); 
