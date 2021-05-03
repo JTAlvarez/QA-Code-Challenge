@@ -1,1 +1,1 @@
-Name,Clark
+Name,Clark,Man,Day
